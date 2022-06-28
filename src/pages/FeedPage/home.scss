@@ -1,0 +1,97 @@
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 8;
+
+    .listContainer {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 20px;
+      margin: 20px;
+      
+      .imageAndPost{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .avatar {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+  
+        .post {
+          display: flex;
+          align-items: center;
+          border: 0.5px solid lightgray;
+          border-radius: 8px;
+          padding: 3px;
+          width: 90%;
+          height: 35px;
+    
+          input {
+            border: none;
+            outline: none;
+            background: transparent;
+            width: 90%;
+            height: 30px;
+    
+            &::placeholder {
+              font-size: 18px;
+            }
+          }
+        }
+  
+        .listTitle {
+          font-weight: 500;
+          color: gray;
+          margin-bottom: 15px;
+        }
+      }
+
+      .iconsBelowPost {
+        display: flex;
+        flex-direction: "row";
+        align-items: center;
+        margin-top: 10px;
+        padding: 20px;
+        padding-bottom: 10px;
+
+        .item {
+          display: flex;
+          align-items: center;
+          margin-right: 10vw;
+          position: relative;
+
+          .pictureIcon {
+            font-size: 30px;
+            color: rgb(3, 146, 236);
+            margin-right: 20px;
+          }
+          .videoIcon{
+            font-size: 30px;
+            color: rgb(2, 216, 34);
+            margin-right: 20px;
+          }
+          .eventIcon{
+            font-size: 30px;
+            color: rgb(237, 203, 9);
+            margin-right: 20px;
+          }
+          .articleIcon{
+            font-size: 30px;
+            color: rgb(237, 134, 9);
+            margin-right: 20px;
+          }
+          p {
+            font-size: 25px;
+          }
+        }
+
+
+      }
+
+    }
+  }
+}

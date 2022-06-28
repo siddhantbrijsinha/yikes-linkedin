@@ -1,0 +1,56 @@
+.navbar {
+  height: 50px;
+  border-bottom: 0.5px solid rgb(230, 227, 227);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .items {
+      display: flex;
+      align-items: center;
+
+      .item {
+        display: flex;
+        align-items: center;
+        margin-right: 10vw;
+        position: relative;
+        cursor: pointer;
+
+        .icon {
+          font-size: 30px;
+          color: black;
+        }
+
+        .avatar {
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+        }
+
+        .counter {
+          width: 20px;
+          height: 20px;
+          background-color: red;
+          border-radius: 50%;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 15px;
+          font-weight: bold;
+          position: absolute;
+          top: -5px;
+          right: -5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+    .login {
+        margin-top: 20vh;
+    }
+    .container {
+        margin: auto;
+        height: 100%;
+    }
+
+    .container_sub{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .user_card {
+        height: 400px;
+        width: 350px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background: #10769c;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+
+    }
+    .user_card_sub{
+        display: flex;
+        justify-content: center;
+    }
+    .brand_logo_container {
+        position: absolute;
+        height: 170px;
+        width: 170px;
+        top: -75px;
+        border-radius: 50%;
+        background: white;
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid yellow;
+    }
+    .form_container {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .login_btn {
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100px;
+        background: #c0392b !important;
+        color: white !important;
+        cursor: pointer;
+    }
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .login_container {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        padding: 0 2rem;
+    }
+    .input-group{
+        display: flex;
+        flex-direction: "row";
+        margin-bottom: 10px;
+    }
+    .input-group-text {
+        background: #c0392b !important;
+        color: white !important;
+        border: 0 !important;
+        border-radius: 0.25rem 0 0 0.25rem !important;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .form-control{
+        border: none;
+        outline: none;
+        width: 250px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    .signupContainer{
+        margin-top: 20px;
+        .signupLinkText{
+            color: white;
+            display: flex;
+            justify-content: center;
+            .signupLink{
+                color:aqua;
+                margin-left: 2px;
+            }
+        }
+    }
